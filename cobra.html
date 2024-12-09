@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake.io</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #2d2d2d; /* Cor de fundo mais escura */
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        canvas {
+            border: 5px solid #444; /* Borda escura ao redor do jogo */
+        }
+        #game-over {
+            font-size: 32px;
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-over">Game Over</div>
+    <script src="cobra.js"></script>
+</body>
+</html>
